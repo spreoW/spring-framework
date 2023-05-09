@@ -7,6 +7,11 @@ public class User {
 	private String id;
 	private String userName;
 
+	public void init(){
+		id = "1";
+		userName = "张三";
+	}
+
 	public User() {
 	}
 
